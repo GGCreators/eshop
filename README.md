@@ -1,13 +1,13 @@
 # React App eShop
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Описание
 
-SinglePage магазин с корзиной.\
-Использован ReactRouterDOM для навигации по приложению.\
-Приложение разбито на 7 компонентов.\
-Подключено к Firebase. Демо: https://eshop-d2cb7.web.app/  
+### `Components: Header, HomePage, CheckoutPage, LoginPage` - основные компоненты приложения
+### `AddToCart, RemoveFromCart using hook useState`
+### `Firebase` - используется для авторизации
+### `StateProvider, Reducer, useRecucer hook` - используется для динамического добавления и удаления из корзины
+### `react-router-dom` - для навигации по приложению
+### `react-currency-format` - для форматирования числа в текст для отображения
 
 ![](https://github.com/GGCreators/eshop/raw/master/screenshots/Screenshot_2.png)
 ![](https://github.com/GGCreators/eshop/raw/master/screenshots/Screenshot_3.png)
